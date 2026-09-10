@@ -54,7 +54,7 @@ postfixes = [
 	"nt",
 	"ification",
 	"illion",
-	"sion",
+	"asion",
 ]
 
 def kirkify_word(word, harsh = False):
