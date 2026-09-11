@@ -45,6 +45,8 @@ noun_keywords["is"] = True
 noun_keywords["im"] = True
 noun_keywords["the"] = True
 noun_keywords["its"] = True
+noun_keywords["it's"] = True
+noun_keywords["so"] = True
 
 postfixes = [
 	"ing",
@@ -52,9 +54,11 @@ postfixes = [
 	"ed",
 	"er",
 	"nt",
+	"n't",
 	"ification",
 	"illion",
 	"asion",
+	"ness",
 ]
 
 def kirkify_word(word, harsh = False):
